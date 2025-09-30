@@ -120,6 +120,7 @@ export default function ShopDetails() {
                                     <div className="tab-content" id="myTabContent2">
                                         <div className={activeIndex2 === 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <p>
+                                                
                                                 Many primary school students suffer from learning disabilities such as dyscalculia and
 dysgraphia, which limit their ability to acquire regular activities, specially performing
 written and mathematical tasks. In general, it is found that deaf and mute students have
