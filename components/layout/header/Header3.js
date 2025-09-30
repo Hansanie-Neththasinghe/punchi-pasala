@@ -61,10 +61,20 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <li className="active menu-item-has-children"><Link href="#">Home</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/">Home One</Link></li>
-                                                        <li className="active"><Link href="/index-3">Home Three</Link></li>
+                                                        <li className=""><Link href="/index-3">Home Three</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/#">Domain</Link></li>
+                                                <li className=" menu-item-has-children"><Link href="#">Domain</Link>
+                                                    <ul className="sub-menu">
+                                                        <li ><Link href="/#">Literature Survey</Link></li>
+                                                        <li><Link href="/#">Research Gap</Link></li>
+                                                        <li><Link href="/#">Research Problem</Link></li>
+                                                        <li><Link href="/#">Research Objectives</Link></li>
+                                                        <li><Link href="/#">Methodology</Link></li>
+                                                        <li><Link href="/#">Technologies and tools</Link></li>
+                                                        {/* <li className="active"><Link href="/index-3">Home Three</Link></li> */}
+                                                    </ul>
+                                                </li>
                                                 <li><Link href="/#">Milestones</Link></li>
                                                 <li><Link href="/#">Documents</Link></li>
                                                 <li><Link href="/#">Presentations</Link></li>
