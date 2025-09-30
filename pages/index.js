@@ -12,6 +12,10 @@ import Testimonial1 from "@/components/sections/Testimonial1"
 import Slider1 from "@/components/sections/Slider1"
 import Categories3 from "@/components/sections/Categories3"
 import ShopDetails from "./shop-details"
+import ResearchDetails from "./research-details"
+import Technologies from "@/components/sections/Technologies"
+import Documents from "@/components/sections/Documents"
+import Presentations from "@/components/sections/Presentations"
 
 
 export default function Home1() {
@@ -19,14 +23,17 @@ export default function Home1() {
       <>
         <Layout headerStyle={3} footerStyle={1}>
           <Slider1 />
-          <ShopDetails />
-
-          {/* <Banner1 /> */}
+          {/* <ShopDetails /> */}
+          <ResearchDetails />
           {/* <Brand1 /> */}
+          <Technologies />
+          {/* <Banner1 /> */}
           <About1 />
           {/* <Course1 /> */}
           {/* <Categories1 /> */}
           <Categories3 />
+          <Documents />
+          <Presentations />
           <Testimonial1 />
           <Instructor1 />
           <Cta1 />
