@@ -395,7 +395,8 @@ textarea {
 .btn {
     user-select: none;
     -moz-user-select: none;
-    background: var(--tg-theme-primary) none repeat scroll 0 0;
+    /* background: var(--tg-theme-primary) none repeat scroll 0 0; */
+    background: var(--tg-common-color-orange) none repeat scroll 0 0;
     border: medium none;
     color: var(--tg-common-color-white);
     cursor: pointer;
@@ -3211,9 +3212,18 @@ textarea {
 .brand-active .col {
     padding-left: 15px;
     padding-right: 15px;
+    height: max-content;
+    width: max-content;
 }
 
 .brand__item img {
+    filter: grayscale(1);
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+}
+
+.brand__item p {
     filter: grayscale(1);
     opacity: 0.4;
 }
@@ -3224,12 +3234,17 @@ textarea {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    height: 51px;
+    /* height: 51px; */
     align-items: center;
     justify-content: center;
 }
 
 .brand__item a:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.brand__item a:hover p {
     filter: grayscale(0);
     opacity: 1;
 }
@@ -5640,7 +5655,7 @@ textarea {
 
 .categories__item-three .info .courses {
     display: inline-block;
-    background: var(--tg-theme-primary);
+    background: var(--tg-common-color-orange);
     color: var(--tg-common-color-white);
     padding: 8px 12px;
     border-radius: 4px 4px 0px 0px;
@@ -8153,7 +8168,7 @@ textarea {
 }
 
 .quick__action-content {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 @media (max-width: 1199.98px) {
@@ -8169,10 +8184,11 @@ textarea {
 }
 
 .quick__action-content .title {
-    color: var(--tg-common-color-white);
+    color: var(--tg-common-color-black);
     font-size: 26px;
-    margin: 0 0 25px;
-    text-transform: capitalize;
+    margin: 0  25px;
+    text-align: center;
+    /* text-transform: capitalize; */
 }
 
 @media (max-width: 991.98px) {
