@@ -1,1 +1,2 @@
-# punchi-pasala
+# eduvalt
+# nextjs template by AliThemes
