@@ -16,6 +16,7 @@ import ResearchDetails from "./research-details"
 import Technologies from "@/components/sections/Technologies"
 import Documents from "@/components/sections/Documents"
 import Presentations from "@/components/sections/Presentations"
+import Timeline from "@/components/sections/Timeline"
 
 
 export default function Home1() {
@@ -38,6 +39,10 @@ export default function Home1() {
           <Instructor1 />
           <Cta1 />
           <Blog1 />
+
+          <Timeline />
+
+
           <Newsletter1 />
         </Layout>
       </>
