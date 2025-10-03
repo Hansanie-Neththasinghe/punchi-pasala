@@ -28,6 +28,8 @@ export default function Home1() {
           <ResearchDetails />
           {/* <Brand1 /> */}
           <Technologies />
+          <Timeline />
+
           {/* <Banner1 /> */}
           <About1 />
           {/* <Course1 /> */}
@@ -35,12 +37,11 @@ export default function Home1() {
           <Categories3 />
           <Documents />
           <Presentations />
-          <Testimonial1 />
+          {/* <Testimonial1 /> */}
           <Instructor1 />
           <Cta1 />
-          <Blog1 />
+          {/* <Blog1 /> */}
 
-          <Timeline />
 
 
           <Newsletter1 />

@@ -3048,10 +3048,10 @@ textarea {
     z-index: 1;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1920px) {
     .slider__item {
         padding: 110px 0 120px;
-        min-height: 560px;
+        min-height: 500px;
     }
 }
 

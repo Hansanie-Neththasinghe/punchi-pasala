@@ -19,7 +19,7 @@ export default function ResearchDetails() {
     return (
       <>
         {/* <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Shop Details"> */}
-        <section className="shop-details-area section-pt-120 section-pb-90">
+        <section className="shop-details-area  section-pb-90">
           <div className="container">
             {/* <div className="row">
                             <div className="col-lg-6">

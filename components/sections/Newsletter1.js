@@ -10,7 +10,7 @@ export default function Newsletter1() {
                                     <img src="/assets/img/others/newsletter.png" alt="img" />
                                 </div>
                                 <div className="newsletter__content">
-                                    <h4 className="title">Let’s Join To <br /> Our Newsletters</h4>
+                                    <h4 className="title">Let’s Subscribe <br /> Our TouTube Channel</h4>
                                 </div>
                             </div>
                         </div>

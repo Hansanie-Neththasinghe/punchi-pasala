@@ -15,7 +15,7 @@ export default function Slider1() {
         <>
             <section className="slider-area">
                 <Slider {...settings} className="slider__active">
-                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg01.jpg">
+                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg01.png">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
@@ -39,7 +39,7 @@ export default function Slider1() {
                         <img src="/assets/img/objects/categories_shape02.png" alt="shape" width={108} className="top-shape" data-delay-in="1.2" data-duration-in="1.5" />
                         <img src="/assets/img/banner/slider_shape.png" alt="shape" className="bottom-shape" data-delay-in="1.2" data-duration-in="1.5" />
                     </div>
-                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg02.jpg">
+                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg02.png">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
@@ -63,7 +63,7 @@ export default function Slider1() {
                         <img src="/assets/img/objects/categories_shape02.png" alt="shape" width={108} className="top-shape" data-delay-in="1.2" data-duration-in="1.5" />
                         <img src="/assets/img/banner/slider_shape.png" alt="shape" className="bottom-shape" data-delay-in="1.2" data-duration-in="1.5" />
                     </div>
-                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg03.jpg">
+                    <div className="slider__item d-flex" data-background="/assets/img/banner/slider_bg03.png">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
