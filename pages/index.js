@@ -17,6 +17,7 @@ import Technologies from "@/components/sections/Technologies"
 import Documents from "@/components/sections/Documents"
 import Presentations from "@/components/sections/Presentations"
 import Timeline from "@/components/sections/Timeline"
+import Gallery from "@/components/sections/Gallery"
 
 
 export default function Home1() {
@@ -38,6 +39,7 @@ export default function Home1() {
           <Documents />
           <Presentations />
           {/* <Testimonial1 /> */}
+          <Gallery />
           <Instructor1 />
           <Cta1 />
           {/* <Blog1 /> */}
