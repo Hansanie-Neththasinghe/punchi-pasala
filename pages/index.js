@@ -18,6 +18,8 @@ import Documents from "@/components/sections/Documents"
 import Presentations from "@/components/sections/Presentations"
 import Timeline from "@/components/sections/Timeline"
 import Gallery from "@/components/sections/Gallery"
+import GroupMembers from "@/components/sections/GroupMembers"
+import Supervisors from "@/components/sections/Supervisors"
 
 
 export default function Home1() {
@@ -40,7 +42,8 @@ export default function Home1() {
           <Presentations />
           {/* <Testimonial1 /> */}
           <Gallery />
-          <Instructor1 />
+          < Supervisors />
+          {/* <Instructor1 /> */} <GroupMembers />
           <Cta1 />
           {/* <Blog1 /> */}
 
