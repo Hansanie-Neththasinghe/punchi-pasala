@@ -3,6 +3,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import data from "../../util/blog.json"
+import { assetPath } from "@/utils/assetPath"
 
 export default function BlogDetails() {
     let Router = useRouter()
@@ -23,7 +24,8 @@ export default function BlogDetails() {
                                 <div className="col-lg-8">
                                     <div className="blog__standard-post blog__details-wrapper">
                                         <div className="blog__standard-thumb">
-                                            <img src={`/assets/img/blog/${blogPost.img}`} className="w-100" alt="img" />
+                                            {/* <img src={`/assets/img/blog/${blogPost.img}`} className="w-100" alt="img" /> */}
+                                            <img src={assetPath(`/assets/img/blog/${blogPost.img}`)} className="w-100" alt="img" />
                                         </div>
                                         <div className="blog__standard-content blog-details-content">
                                             <h3 className="title">{blogPost.title}</h3>
@@ -80,7 +82,7 @@ export default function BlogDetails() {
                                                 <div className="blog__prev-item">
                                                     <div className="blog__prev-thumb">
                                                         <Link href="/blog-details">
-                                                            <img src="/assets/img/blog/blog_standard04.jpg" alt="img" />
+                                                            <img src={assetPath("/assets/img/blog/blog_standard04.jpg")} alt="img" />
                                                         </Link>
                                                     </div>
                                                     <div className="blog__prev-content">
@@ -94,7 +96,7 @@ export default function BlogDetails() {
                                                 <div className="blog__prev-item next">
                                                     <div className="blog__prev-thumb">
                                                         <Link href="/blog-details">
-                                                            <img src="/assets/img/blog/blog_standard03.jpg" alt="img" />
+                                                            <img src={assetPath("/assets/img/blog/blog_standard03.jpg")} alt="img" />
                                                         </Link>
                                                     </div>
                                                     <div className="blog__prev-content">
@@ -107,7 +109,7 @@ export default function BlogDetails() {
                                     </div>
                                     <div className="blog__post-author">
                                         <div className="blog__post-author-thumb">
-                                            <Link href="#"><img src="/assets/img/blog/author.png" alt="img" /></Link>
+                                            <Link href="#"><img src={assetPath("/assets/img/blog/author.png")} alt="img" /></Link>
                                         </div>
                                         <div className="blog__post-author-content">
                                             <span className="designation">Written by</span>
@@ -126,7 +128,7 @@ export default function BlogDetails() {
                                                     <li>
                                                         <div className="comments-box">
                                                             <div className="comments-avatar">
-                                                                <img src="/assets/img/blog/comment01.png" alt="img" />
+                                                                <img src={assetPath("/assets/img/blog/comment01.png")} alt="img" />
                                                             </div>
                                                             <div className="comments-text">
                                                                 <div className="avatar-name">
@@ -143,7 +145,7 @@ export default function BlogDetails() {
                                                     <li>
                                                         <div className="comments-box">
                                                             <div className="comments-avatar">
-                                                                <img src="/assets/img/blog/comment02.png" alt="img" />
+                                                                <img src={assetPath("/assets/img/blog/comment02.png")} alt="img" />
                                                             </div>
                                                             <div className="comments-text">
                                                                 <div className="avatar-name">
@@ -256,7 +258,7 @@ export default function BlogDetails() {
                                             <div className="rc-post-item">
                                                 <div className="rc-post-thumb">
                                                     <Link href="/blog-details">
-                                                        <img src="/assets/img/blog/blog_standard01.jpg" alt="img" />
+                                                        <img src={assetPath("/assets/img/blog/blog_standard01.jpg")} alt="img" />
                                                     </Link>
                                                 </div>
                                                 <div className="rc-post-content">
@@ -267,7 +269,7 @@ export default function BlogDetails() {
                                             <div className="rc-post-item">
                                                 <div className="rc-post-thumb">
                                                     <Link href="/blog-details">
-                                                        <img src="/assets/img/blog/blog_standard04.jpg" alt="img" />
+                                                        <img src={assetPath("/assets/img/blog/blog_standard04.jpg")} alt="img" />
                                                     </Link>
                                                 </div>
                                                 <div className="rc-post-content">
@@ -278,7 +280,7 @@ export default function BlogDetails() {
                                             <div className="rc-post-item">
                                                 <div className="rc-post-thumb">
                                                     <Link href="/blog-details">
-                                                        <img src="/assets/img/blog/blog_standard03.jpg" alt="img" />
+                                                        <img src={assetPath("/assets/img/blog/blog_standard03.jpg")} alt="img" />
                                                     </Link>
                                                 </div>
                                                 <div className="rc-post-content">

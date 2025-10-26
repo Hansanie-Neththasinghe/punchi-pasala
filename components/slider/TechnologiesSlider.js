@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Link from "next/link"
 import Slider from "react-slick"
+import { assetPath } from "@/utils/assetPath";
+
 
 const settings = {
     dots: false,
@@ -53,68 +55,68 @@ export default function TechnologiesSlider() {
             <Slider {...settings} className="row brand-active">
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/16.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/16.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/17.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/17.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/18.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/18.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/19.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/19.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/20.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/20.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/21.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/21.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/22.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/22.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/23.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/23.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/24.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/24.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/25.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/25.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/26.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/26.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/assets/img/technologies/27.png" alt="brand" /></Link>
+                        <Link href="#"><img src={assetPath("/assets/img/technologies/27.png")} alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
                         <Link  href="#" style={{ display: "flex", flexDirection: "column", alignItems: "center", textDecoration: "none" }} >
-                            <img src="/assets/img/technologies/28.png" alt="brand" />
+                            <img src={assetPath("/assets/img/technologies/28.png")} alt="brand" />
                             <p style={{ marginTop: "8px", color: "#333" }}>Name</p>
                         </Link>
                     </div>
@@ -140,7 +142,7 @@ export default function TechnologiesSlider() {
           <span
             className="svg-icon"
             id="about-btn"
-            data-svg-icon="assets/img/icons/btn-arrow.svg"
+            data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")}
           />
         </button>
       </div>
@@ -199,19 +201,19 @@ export default function TechnologiesSlider() {
         }}
       >
         {[
-          { src: "/assets/img/technologies/16.png", name: "Tech 16", link: "/tech16" },
-          { src: "/assets/img/technologies/17.png", name: "Tech 17", link: "/tech17" },
-          { src: "/assets/img/technologies/18.png", name: "Tech 18", link: "/tech18" },
-          { src: "/assets/img/technologies/19.png", name: "Tech 19", link: "/tech19" },
-          { src: "/assets/img/technologies/20.png", name: "Tech 20", link: "/tech20" },
-          { src: "/assets/img/technologies/21.png", name: "Tech 21", link: "/tech21" },
-          { src: "/assets/img/technologies/22.png", name: "Tech 22", link: "/tech22" },
-          { src: "/assets/img/technologies/23.png", name: "Tech 23", link: "/tech23" },
-          { src: "/assets/img/technologies/24.png", name: "Tech 24", link: "/tech24" },
-          { src: "/assets/img/technologies/25.png", name: "Tech 25", link: "/tech25" },
-          { src: "/assets/img/technologies/26.png", name: "Tech 26", link: "/tech26" },
-          { src: "/assets/img/technologies/27.png", name: "Tech 27", link: "/tech27" },
-          { src: "/assets/img/technologies/28.png", name: "Tech 28", link: "/tech28" },
+          { src: assetPath('/assets/img/technologies/16.png'), name: "Tech 16", link: "/tech16" },
+          { src: assetPath('/assets/img/technologies/17.png'), name: "Tech 17", link: "/tech17" },
+          { src: assetPath('/assets/img/technologies/18.png'), name: "Tech 18", link: "/tech18" },
+          { src: assetPath('/assets/img/technologies/19.png'), name: "Tech 19", link: "/tech19" },
+          { src: assetPath('/assets/img/technologies/20.png'), name: "Tech 20", link: "/tech20" },
+          { src: assetPath('/assets/img/technologies/21.png'), name: "Tech 21", link: "/tech21" },
+          { src: assetPath('/assets/img/technologies/22.png'), name: "Tech 22", link: "/tech22" },
+          { src: assetPath('/assets/img/technologies/23.png'), name: "Tech 23", link: "/tech23" },
+          { src: assetPath('/assets/img/technologies/24.png'), name: "Tech 24", link: "/tech24" },
+          { src: assetPath('/assets/img/technologies/25.png'), name: "Tech 25", link: "/tech25" },
+          { src: assetPath('/assets/img/technologies/26.png'), name: "Tech 26", link: "/tech26" },
+          { src: assetPath('/assets/img/technologies/27.png'), name: "Tech 27", link: "/tech27" },
+          { src: assetPath('/assets/img/technologies/28.png'), name: "Tech 28", link: "/tech28" },
         ].map((tech, index) => (
           <a
             key={index}

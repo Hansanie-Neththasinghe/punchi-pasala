@@ -1,6 +1,7 @@
 import Link from "next/link"
 import MobileMenu from "../MobileMenu"
 import { Menu } from '@headlessui/react'
+import { assetPath } from "@/utils/assetPath";
 export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
     return (
         <>
@@ -37,7 +38,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <div className="tgmenu__wrap">
                                     <nav className="tgmenu__nav">
                                         <div className="logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo-punchi-pasala.png" alt="Logo" width="100" height="80"/></Link>
+                                            <Link href="/"><img src={assetPath('/assets/img/logo/logo-punchi-pasala.png')} alt="Logo" width="100" height="80" /></Link>
+                                            {/* <Link href="/"><img src="/assets/img/logo/logo-punchi-pasala.png" alt="Logo" width="100" height="80"/></Link> */}
                                         </div>
                                         <div className="tgmenu__categories d-none d-md-block">
                                             {/* <Menu as="div" className="dropdown">
@@ -106,7 +108,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                     <nav className="tgmobile__menu-box">
                                         <div className="close-btn" onClick={handleMobileMenu}><i className="tg-flaticon-close-1" /></div>
                                         <div className="nav-logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo-punchi-pasala.png" alt="Logo" height={0}  /></Link>
+                                            <Link href="/"><img src={assetPath("/assets/img/logo/logo-punchi-pasala.png")} alt="Logo" height={0}  /></Link>
                                         </div>
                                         {/* <div className="tgmobile__search">
                                             <form action="#">

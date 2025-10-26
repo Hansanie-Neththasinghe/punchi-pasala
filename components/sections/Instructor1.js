@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { assetPath } from "@/utils/assetPath";
 
 export default function Instructor1() {
     return (
@@ -10,7 +11,7 @@ export default function Instructor1() {
                             <div className="col-md-8">
                                 <div className="section__title text-center text-md-start">
                                     <span className="sub-title">Our Enthusiastic Members Matter</span>
-                                    <h2 className="title tg-svg">Group <span className="position-relative"><span className="svg-icon" id="svg-8" data-svg-icon="assets/img/icons/title_shape.svg" />Members</span>
+                                    <h2 className="title tg-svg">Group <span className="position-relative"><span className="svg-icon" id="svg-8" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Members</span>
                                         </h2>
                                 </div>
                             </div>
@@ -27,7 +28,7 @@ export default function Instructor1() {
                             <div className="instructor__item">
                                 <div className="instructor__img">
                                     <div className="instructor__shape" style={{ backgroundColor: '#E2FAFF', borderRadius: '135px 0 0 0' }} />
-                                    <Link href="/instructor-details"><img src="/assets/img/group-members/member1.png" alt="instructor"/></Link>
+                                    <Link href="/instructor-details"><img src={assetPath("/assets/img/group-members/member1.png")} alt="instructor"/></Link>
                                 </div>
                                 <div className="instructor__content">
                                     <div className="left">
@@ -50,7 +51,7 @@ export default function Instructor1() {
                             <div className="instructor__item">
                                 <div className="instructor__img">
                                     <div className="instructor__shape" style={{ backgroundColor: '#E4FFE2', borderRadius: '135px 115px 115px 0' }} />
-                                    <Link href="/instructor-details"><img src="/assets/img/group-members/member2.png" alt="instructor" /></Link>
+                                    <Link href="/instructor-details"><img src={assetPath("/assets/img/group-members/member2.png")} alt="instructor" /></Link>
                                 </div>
                                 <div className="instructor__content">
                                     <div className="left">
@@ -73,7 +74,7 @@ export default function Instructor1() {
                             <div className="instructor__item">
                                 <div className="instructor__img">
                                     <div className="instructor__shape" style={{ backgroundColor: '#E8EDFF', borderRadius: '135px 0 0 0' }} />
-                                    <Link href="/instructor-details"><img src="/assets/img/group-members/member3.png" alt="instructor" /></Link>
+                                    <Link href="/instructor-details"><img src={assetPath("/assets/img/group-members/member3.png")} alt="instructor" /></Link>
                                 </div>
                                 <div className="instructor__content">
                                     <div className="left">
@@ -96,7 +97,7 @@ export default function Instructor1() {
                             <div className="instructor__item">
                                 <div className="instructor__img">
                                     <div className="instructor__shape" style={{ backgroundColor: '#FFE2E2', borderRadius: '135px 115px 115px 0' }} />
-                                    <Link href="/instructor-details"><img src="/assets/img/group-members/member4.png" alt="instructor" /></Link>
+                                    <Link href="/instructor-details"><img src={assetPath("/assets/img/group-members/member4.png")} alt="instructor" /></Link>
                                 </div>
                                 <div className="instructor__content">
                                     <div className="left">

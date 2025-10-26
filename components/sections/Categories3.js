@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { assetPath } from "@/utils/assetPath";
 
 export default function Categories3() {
     return (
@@ -33,7 +34,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/assets/img/others/cat01.jpg" alt="img" />
+                      <img src={assetPath("/assets/img/others/cat01.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -50,7 +51,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/assets/img/others/cat02.jpg" alt="img" />
+                      <img src={assetPath("/assets/img/others/cat02.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -67,7 +68,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/assets/img/others/cat03.jpg" alt="img" />
+                      <img src={assetPath("/assets/img/others/cat03.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -84,7 +85,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/assets/img/others/cat04.jpg" alt="img" />
+                      <img src={assetPath("/assets/img/others/cat04.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
