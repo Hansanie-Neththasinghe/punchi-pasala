@@ -25,15 +25,14 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - run: npm run build
-      - run: npm run export       # produces ./out
+      - run: npm run static      # builds and exports to ./dist
 
       # Avoid Jekyll processing so /_next/* works on Pages
-      - run: touch out/.nojekyll
+      - run: touch dist/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./dist
 
   deploy:
     needs: build

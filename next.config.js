@@ -14,8 +14,11 @@ const repo = 'punchi-pasala';
 
 const nextConfig = {
   output: 'export',
+  distDir: 'dist',
   images: {
     unoptimized: true,
+    loader: 'akamai',
+    path: '',
   },
   basePath: isProd ? `/${repo}` : '',
   assetPrefix: isProd ? `/${repo}` : '',
