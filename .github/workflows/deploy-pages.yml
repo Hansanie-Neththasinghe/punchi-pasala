@@ -27,8 +27,10 @@ jobs:
       - run: npm ci
       - run: npm run static      # builds and exports to ./dist
 
-      # Avoid Jekyll processing so /_next/* works on Pages
-      - run: touch dist/.nojekyll
+      # Create dist directory if it doesn't exist and add .nojekyll
+      - run: |
+          mkdir -p dist
+          touch dist/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
