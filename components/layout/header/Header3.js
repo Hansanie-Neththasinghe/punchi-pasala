@@ -37,7 +37,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <div className="tgmenu__wrap">
                                     <nav className="tgmenu__nav">
                                         <div className="logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo-punchi-pasala.png" alt="Logo" width="100" height="80"/></Link>
+                                            <Link href="/"><img src="/punchi-pasala/assets/img/logo/logo-punchi-pasala.png" alt="Logo" width="100" height="80"/></Link>
                                         </div>
                                         <div className="tgmenu__categories d-none d-md-block">
                                             {/* <Menu as="div" className="dropdown">
@@ -58,24 +58,29 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                         </div>
                                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                             <ul className="navigation">
-                                                <li className="active menu-item-has-children"><Link href="#">Home</Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/">Home One</Link></li>
-                                                        <li className="active"><Link href="/index-3">Home Three</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link href="/#">Domain</Link></li>
-                                                <li><Link href="/#">Milestones</Link></li>
-                                                <li><Link href="/#">Documents</Link></li>
-                                                <li><Link href="/#">Presentations</Link></li>
-                                                <li><Link href="/#">Gallery</Link></li>
-                                                <li><Link href="/#">Join Us</Link></li>
-                                                <li><Link href="/#">About Us</Link></li>
-                                                <li><Link href="/#">Contact Us</Link></li>
+  <li><Link href="/#home">Home</Link></li>
 
-                                                
-                                                
-                                            </ul>
+  <li className="menu-item-has-children">
+    <Link href="/#domain">Domain</Link>
+    <ul className="sub-menu">
+      <li><Link href="/#domain">Literature Survey</Link></li>
+      <li><Link href="/#domain">Research Gap</Link></li>
+      <li><Link href="/#domain">Research Problem</Link></li>
+      <li><Link href="/#domain">Research Objectives</Link></li>
+      <li><Link href="/#domain">Methodology</Link></li>
+      <li><Link href="/#domain">Technologies and Tools</Link></li>
+    </ul>
+  </li>
+
+  <li><Link href="/#milestones">Milestones</Link></li>
+  <li><Link href="/#documents">Documents</Link></li>
+  <li><Link href="/#presentations">Presentations</Link></li>
+  <li><Link href="/#gallery">Gallery</Link></li>
+  <li><Link href="/#join">Join Us</Link></li>
+  <li><Link href="/#about">About Us</Link></li>
+  <li><Link href="/#contact">Contact Us</Link></li>
+</ul>
+
                                         </div>
                                         {/* <div className="tgmenu__search-bar">
                                             <form action="#">
@@ -101,24 +106,26 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                     <nav className="tgmobile__menu-box">
                                         <div className="close-btn" onClick={handleMobileMenu}><i className="tg-flaticon-close-1" /></div>
                                         <div className="nav-logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                            <Link href="/"><img src="/punchi-pasala/assets/img/logo/logo-punchi-pasala.png" alt="Logo" height={50}  /></Link>
                                         </div>
-                                        <div className="tgmobile__search">
+                                        {/* <div className="tgmobile__search">
                                             <form action="#">
                                                 <input type="text" placeholder="Search here..." />
                                                 <button><i className="fas fa-search" /></button>
                                             </form>
-                                        </div>
+                                        </div> */}
                                         <div className="tgmobile__menu-outer">
-                                            <MobileMenu />
+                                            {/* <MobileMenu /> */}
+                                            <MobileMenu handleMobileMenu={handleMobileMenu} />
+
                                         </div>
-                                        <div className="tgmenu__action">
+                                        {/* <div className="tgmenu__action">
                                             <ul className="list-wrap">
                                                 <li className="header-btn login-btn"><Link href="#" className="btn">Log in</Link></li>
                                                 <li className="header-btn"><Link href="#" className="btn">Try For Free</Link></li>
                                             </ul>
-                                        </div>
-                                        <div className="social-links">
+                                        </div> */}
+                                        {/* <div className="social-links">
                                             <ul className="list-wrap">
                                                 <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
                                                 <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
@@ -126,7 +133,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <li><Link href="#"><i className="fab fa-linkedin-in" /></Link></li>
                                                 <li><Link href="#"><i className="fab fa-youtube" /></Link></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </nav>
                                 </div>
                                 <div className="tgmobile__menu-backdrop" onClick={handleMobileMenu} />

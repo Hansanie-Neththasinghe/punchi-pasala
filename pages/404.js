@@ -11,7 +11,7 @@ export default function Custom404() {
                             <div className="col-lg-8">
                                 <div className="error-wrap text-center">
                                     <div className="error-img">
-                                        <img src="/assets/img/others/error_img.svg" alt="img" />
+                                        <img src="/punchi-pasala/assets/img/others/error_img.svg" alt="img" />
                                     </div>
                                     <div className="error-content">
                                         <h2 className="title">ERROR PAGE! <span>Sorry! This Page is Not Available!</span></h2>
