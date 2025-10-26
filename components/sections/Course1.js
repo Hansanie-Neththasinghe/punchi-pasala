@@ -12,8 +12,8 @@ export default function Course1() {
                     <PortfolioFilter1 />
                 </div>
                 <div className="courses__shapes">
-                    <div className="courses__shapes-item alltuchtopdown"><img src="/assets/img/courses/course_shape01.png" alt="shape" /></div>
-                    <div className="courses__shapes-item alltuchtopdown"><img src="/assets/img/courses/course_shape02.png" alt="shape" /></div>
+                    <div className="courses__shapes-item alltuchtopdown"><img src="/punchi-pasala/assets/img/courses/course_shape01.png" alt="shape" /></div>
+                    <div className="courses__shapes-item alltuchtopdown"><img src="/punchi-pasala/assets/img/courses/course_shape02.png" alt="shape" /></div>
                 </div>
             </section>
         </>

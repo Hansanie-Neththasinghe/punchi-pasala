@@ -10,7 +10,7 @@ export default function Presentations() {
                             <div className="categories__title-wrap text-center text-lg-start m-0">
                                 <div className="section__title mb-0">
                                     <span className="sub-title"> Documents </span>
-                                    <h2 className="title tg-svg">Presentation <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="assets/img/icons/title_shape.svg" />Slides</span>
+                                    <h2 className="title tg-svg">Presentation <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="/punchi-pasala/assets/img/icons/title_shape.svg" />Slides</span>
                                     </h2>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ export default function Presentations() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -81,7 +81,7 @@ export default function Presentations() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -122,7 +122,7 @@ export default function Presentations() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -163,7 +163,7 @@ export default function Presentations() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
