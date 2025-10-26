@@ -4,8 +4,6 @@ import DataBg from "../elements/DataBg"
 import Breadcrumb from './Breadcrumb'
 import PageHead from './PageHead'
 import Footer1 from './footer/Footer1'
-import Header1 from "./header/Header1"
-import Header2 from './header/Header2'
 import Header3 from "./header/Header3"
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children }) {
@@ -31,9 +29,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         <>
             <PageHead headTitle={headTitle} />
 
-            {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />}
-            {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
-            {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
+            {!headerStyle && <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />}
             {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} /> : null}
 
             <main className="main-area fix">
