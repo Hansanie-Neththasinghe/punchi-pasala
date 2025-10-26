@@ -51,7 +51,7 @@ const CourseSingle = () => {
                                     <ul className="courses__item-meta list-wrap">
                                         <li>
                                             <div className="author">
-                                                <Link href="#"><img src="/punchi-pasala/assets/img/courses/course_author02.png" alt="img" /></Link>
+                                                <Link href="#"><img src="/assets/img/courses/course_author02.png" alt="img" /></Link>
                                                 <Link href="#">Arian Hok</Link>
                                             </div>
                                         </li>
@@ -144,7 +144,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -155,7 +155,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -166,7 +166,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">10:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -190,7 +190,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -201,7 +201,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -212,7 +212,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">10:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -236,7 +236,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -247,7 +247,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">07:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -258,7 +258,7 @@ const CourseSingle = () => {
                                                                             <div className="course-item-meta">
                                                                                 <span className="item-meta duration">10:48</span>
                                                                                 <span className="item-meta course-item-status">
-                                                                                    <img src="/punchi-pasala/assets/img/icons/lock.svg" alt="icon" />
+                                                                                    <img src="/assets/img/icons/lock.svg" alt="icon" />
                                                                                 </span>
                                                                             </div>
                                                                         </Link>
@@ -274,7 +274,7 @@ const CourseSingle = () => {
                                                 <div className="courses__instructors-list">
                                                     <div className="courses__instructors-item">
                                                         <div className="courses__instructors-thumb">
-                                                            <Link href="/instructor-details"><img src="/punchi-pasala/assets/img/courses/details_instructors01.jpg" alt="img" /></Link>
+                                                            <Link href="/instructor-details"><img src="/assets/img/courses/details_instructors01.jpg" alt="img" /></Link>
                                                         </div>
                                                         <div className="courses__instructors-content">
                                                             <h5 className="name"><Link href="/instructor-details">Robert Smith</Link></h5>
@@ -295,13 +295,13 @@ const CourseSingle = () => {
                                                             </ul>
                                                             <p>Donald Logan has more than 15 years’ experience as a project management consultant, educator, technology consultant, business know.</p>
                                                             <div className="tg-button-wrap">
-                                                                <Link href="/instructor-details" className="btn btn-border tg-svg"><span className="text">See More</span> <span className="svg-icon" id="svg-btn1" data-svg-icon="/punchi-pasala/assets/img/icons/btn-arrow.svg" /></Link>
+                                                                <Link href="/instructor-details" className="btn btn-border tg-svg"><span className="text">See More</span> <span className="svg-icon" id="svg-btn1" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="courses__instructors-item">
                                                         <div className="courses__instructors-thumb">
-                                                            <Link href="/instructor-details"><img src="/punchi-pasala/assets/img/courses/details_instructors02.jpg" alt="img" /></Link>
+                                                            <Link href="/instructor-details"><img src="/assets/img/courses/details_instructors02.jpg" alt="img" /></Link>
                                                         </div>
                                                         <div className="courses__instructors-content">
                                                             <h5 className="name"><Link href="/instructor-details">Ketty Roagh</Link></h5>
@@ -322,7 +322,7 @@ const CourseSingle = () => {
                                                             </ul>
                                                             <p>Donald Logan has more than 15 years’ experience as a project management consultant, educator, technology consultant, business know.</p>
                                                             <div className="tg-button-wrap">
-                                                                <Link href="/instructor-details" className="btn btn-border tg-svg"><span className="text">See More</span> <span className="svg-icon" id="svg-btn2" data-svg-icon="/punchi-pasala/assets/img/icons/btn-arrow.svg" /></Link>
+                                                                <Link href="/instructor-details" className="btn btn-border tg-svg"><span className="text">See More</span> <span className="svg-icon" id="svg-btn2" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -409,7 +409,7 @@ const CourseSingle = () => {
                                                     <ul className="list-wrap">
                                                         <li>
                                                             <div className="review-author">
-                                                                <img src="/punchi-pasala/assets/img/blog/comment01.png" alt="img" />
+                                                                <img src="/assets/img/blog/comment01.png" alt="img" />
                                                             </div>
                                                             <div className="review-author-info">
                                                                 <div className="review-stars-rated">
@@ -458,7 +458,7 @@ const CourseSingle = () => {
                                 <aside className="courses__details-sidebar">
                                     <div className="event-widget">
                                         <div className="thumb">
-                                            <img src={`/punchi-pasala/assets/img/courses/${course.logo ? course.logo:"course_thumb02.jpg"}`} alt="img" />
+                                            <img src={`/assets/img/courses/${course.logo ? course.logo:"course_thumb02.jpg"}`} alt="img" />
                                             <VideoPopup />
                                         </div>
                                         <div className="event-cost-wrap">
@@ -489,7 +489,7 @@ const CourseSingle = () => {
                                         <div className="rc-post-item">
                                             <div className="rc-post-thumb">
                                                 <Link href="/course-details">
-                                                    <img src="/punchi-pasala/assets/img/blog/blog_standard01.jpg" alt="img" />
+                                                    <img src="/assets/img/blog/blog_standard01.jpg" alt="img" />
                                                 </Link>
                                             </div>
                                             <div className="rc-post-content">
@@ -500,7 +500,7 @@ const CourseSingle = () => {
                                         <div className="rc-post-item">
                                             <div className="rc-post-thumb">
                                                 <Link href="/course-details">
-                                                    <img src="/punchi-pasala/assets/img/blog/blog_standard04.jpg" alt="img" />
+                                                    <img src="/assets/img/blog/blog_standard04.jpg" alt="img" />
                                                 </Link>
                                             </div>
                                             <div className="rc-post-content">
@@ -511,7 +511,7 @@ const CourseSingle = () => {
                                         <div className="rc-post-item">
                                             <div className="rc-post-thumb">
                                                 <Link href="/course-details">
-                                                    <img src="/punchi-pasala/assets/img/blog/blog_standard03.jpg" alt="img" />
+                                                    <img src="/assets/img/blog/blog_standard03.jpg" alt="img" />
                                                 </Link>
                                             </div>
                                             <div className="rc-post-content">
@@ -522,7 +522,7 @@ const CourseSingle = () => {
                                         <div className="rc-post-item">
                                             <div className="rc-post-thumb">
                                                 <Link href="/course-details">
-                                                    <img src="/punchi-pasala/assets/img/blog/blog_standard02.jpg" alt="img" />
+                                                    <img src="/assets/img/blog/blog_standard02.jpg" alt="img" />
                                                 </Link>
                                             </div>
                                             <div className="rc-post-content">

@@ -33,7 +33,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/punchi-pasala/assets/img/others/cat01.jpg" alt="img" />
+                      <img src="/assets/img/others/cat01.jpg" alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -50,7 +50,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/punchi-pasala/assets/img/others/cat02.jpg" alt="img" />
+                      <img src="/assets/img/others/cat02.jpg" alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -67,7 +67,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/punchi-pasala/assets/img/others/cat03.jpg" alt="img" />
+                      <img src="/assets/img/others/cat03.jpg" alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -84,7 +84,7 @@ export default function Categories3() {
                 <div className="categories__item-three">
                   <Link href="/#">
                     <div className="thumb">
-                      <img src="/punchi-pasala/assets/img/others/cat04.jpg" alt="img" />
+                      <img src="/assets/img/others/cat04.jpg" alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">

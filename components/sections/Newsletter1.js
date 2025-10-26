@@ -7,7 +7,7 @@ export default function Newsletter1() {
                         <div className="col-xl-6 col-lg-4">
                             <div className="newsletter__img-wrap">
                                 <div className="newsletter__img" data-aos="fade-right">
-                                    <img src="/punchi-pasala/assets/img/others/newsletter.png" alt="img" />
+                                    <img src="/assets/img/others/newsletter.png" alt="img" />
                                 </div>
                                 <div className="newsletter__content">
                                     <h4 className="title">Let’s Subscribe <br /> Our TouTube Channel</h4>

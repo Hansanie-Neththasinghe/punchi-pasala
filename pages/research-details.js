@@ -220,7 +220,7 @@ different scales such as comparisons [4].</p>
                                         <div className={activeIndex2 === 5 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             
                                             <h2>Component Overview Diagram</h2>
-                                            <img src="/punchi-pasala/assets/img/others/methodology.png"></img>
+                                            <img src="/assets/img/others/methodology.png"></img>
                                         </div>
                   </div>
                 </div>

@@ -181,7 +181,7 @@ import Image from "next/image";
 
 export default function Gallery({
   images = [
-    "/punchi-pasala/assets/img/others/cat01.jpg",
+    "/assets/img/others/cat01.jpg",
     "/assets/img/others/cat02.jpg",
     "/assets/img/others/cat03.jpg",
     "/assets/img/others/cat04.jpg",

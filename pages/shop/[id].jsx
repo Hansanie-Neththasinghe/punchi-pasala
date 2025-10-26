@@ -35,34 +35,34 @@ const BookSingle = () => {
                                     <div className="tab-content" id="myTabContent">
                                         <div className={activeIndex === 1 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <Link href="#" className="popup-image">
-                                                <img src="/punchi-pasala/assets/img/shop/shop_details01.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_details01.jpg" alt="" />
                                             </Link>
                                         </div>
                                         <div className={activeIndex === 2 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <Link href="#" className="popup-image">
-                                                <img src="/punchi-pasala/assets/img/shop/shop_details02.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_details02.jpg" alt="" />
                                             </Link>
                                         </div>
                                         <div className={activeIndex === 3 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             <Link href="#" className="popup-image">
-                                                <img src="/punchi-pasala/assets/img/shop/shop_details01.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_details01.jpg" alt="" />
                                             </Link>
                                         </div>
                                     </div>
                                     <ul className="nav nav-tabs" id="myTab" role="tablist">
                                         <li className="nav-item" onClick={() => handleOnClick(1)}>
                                             <button className={activeIndex === 1 ? "nav-link active" : "nav-link"}>
-                                                <img src="/punchi-pasala/assets/img/shop/shop_nav01.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_nav01.jpg" alt="" />
                                             </button>
                                         </li>
                                         <li className="nav-item" onClick={() => handleOnClick(2)}>
                                             <button className={activeIndex === 2 ? "nav-link active" : "nav-link"}>
-                                                <img src="/punchi-pasala/assets/img/shop/shop_nav02.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_nav02.jpg" alt="" />
                                             </button>
                                         </li>
                                         <li className="nav-item" onClick={() => handleOnClick(3)}>
                                             <button className={activeIndex === 3 ? "nav-link active" : "nav-link"}>
-                                                <img src="/punchi-pasala/assets/img/shop/shop_nav01.jpg" alt="" />
+                                                <img src="/assets/img/shop/shop_nav01.jpg" alt="" />
                                             </button>
                                         </li>
                                     </ul>
@@ -152,7 +152,7 @@ const BookSingle = () => {
                         </div>
                         <div className="related-product-area">
                             <div className="section__title mb-50">
-                                <h2 className="title tg-svg">Related <span className="position-relative"><span className="svg-icon" id="related-title" data-svg-icon="/punchi-pasala/assets/img/icons/title_shape.svg" />products</span></h2>
+                                <h2 className="title tg-svg">Related <span className="position-relative"><span className="svg-icon" id="related-title" data-svg-icon="assets/img/icons/title_shape.svg" />products</span></h2>
                             </div>
                             <ShopRelatedSlider1 />
                         </div>

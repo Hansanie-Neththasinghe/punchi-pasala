@@ -61,7 +61,7 @@ export default function ShopRelatedSlider1() {
                 <div className="col-lg-4">
                     <div className="shop-item">
                         <div className="shop-thumb">
-                            <Link href="/shop-details"><img src="/punchi-pasala/assets/img/shop/shop_img01.jpg" alt="" /></Link>
+                            <Link href="/shop-details"><img src="/assets/img/shop/shop_img01.jpg" alt="" /></Link>
                             <div className="shop-action">
                                 <Link href="/shop-details"><i className="fas fa-shopping-cart" /></Link>
                                 <Link href="/shop-details"><i className="far fa-eye" /></Link>
@@ -84,7 +84,7 @@ export default function ShopRelatedSlider1() {
                 <div className="col-lg-4">
                     <div className="shop-item">
                         <div className="shop-thumb">
-                            <Link href="/shop-details"><img src="/punchi-pasala/assets/img/shop/shop_img02.jpg" alt="" /></Link>
+                            <Link href="/shop-details"><img src="/assets/img/shop/shop_img02.jpg" alt="" /></Link>
                             <div className="shop-action">
                                 <Link href="/shop-details"><i className="fas fa-shopping-cart" /></Link>
                                 <Link href="/shop-details"><i className="far fa-eye" /></Link>
@@ -107,7 +107,7 @@ export default function ShopRelatedSlider1() {
                 <div className="col-lg-4">
                     <div className="shop-item">
                         <div className="shop-thumb">
-                            <Link href="/shop-details"><img src="/punchi-pasala/assets/img/shop/shop_img03.jpg" alt="" /></Link>
+                            <Link href="/shop-details"><img src="/assets/img/shop/shop_img03.jpg" alt="" /></Link>
                             <div className="shop-action">
                                 <Link href="/shop-details"><i className="fas fa-shopping-cart" /></Link>
                                 <Link href="/shop-details"><i className="far fa-eye" /></Link>
@@ -130,7 +130,7 @@ export default function ShopRelatedSlider1() {
                 <div className="col-lg-4">
                     <div className="shop-item">
                         <div className="shop-thumb">
-                            <Link href="/shop-details"><img src="/punchi-pasala/assets/img/shop/shop_img04.jpg" alt="" /></Link>
+                            <Link href="/shop-details"><img src="/assets/img/shop/shop_img04.jpg" alt="" /></Link>
                             <div className="shop-action">
                                 <Link href="/shop-details"><i className="fas fa-shopping-cart" /></Link>
                                 <Link href="/shop-details"><i className="far fa-eye" /></Link>
@@ -153,7 +153,7 @@ export default function ShopRelatedSlider1() {
                 <div className="col-lg-4">
                     <div className="shop-item">
                         <div className="shop-thumb">
-                            <Link href="/shop-details"><img src="/punchi-pasala/assets/img/shop/shop_img05.jpg" alt="" /></Link>
+                            <Link href="/shop-details"><img src="/assets/img/shop/shop_img05.jpg" alt="" /></Link>
                             <div className="shop-action">
                                 <Link href="/shop-details"><i className="fas fa-shopping-cart" /></Link>
                                 <Link href="/shop-details"><i className="far fa-eye" /></Link>
