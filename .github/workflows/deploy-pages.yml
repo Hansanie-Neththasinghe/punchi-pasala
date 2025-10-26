@@ -27,24 +27,15 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      # Prepare and upload build output
-      - name: Prepare build output
+      # Create .nojekyll file
+      - name: Create .nojekyll file
         run: |
-          mkdir -p out
-          cp -r .next/static out/_next/static
-          cp -r public/* out/
-          touch out/.nojekyll
-
-      # Copy index page
-      - name: Copy index page
-        run: |
-          if [ -f ".next/server/pages/index.html" ]; then
-            cp .next/server/pages/index.html out/
-          fi
+          mkdir -p dist
+          touch dist/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: dist
 
   deploy:
     needs: build
