@@ -167,7 +167,7 @@ export default function Documents() {
     </div>
 
     {/* Document Title */}
-    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Status Document I </h4>
+    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist I </h4>
 
     {/* Submitted Date */}
     <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
@@ -208,7 +208,7 @@ export default function Documents() {
     </div>
 
     {/* Document Title */}
-    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Status Document II </h4>
+    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist II & III</h4>
 
     {/* Submitted Date */}
     <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>

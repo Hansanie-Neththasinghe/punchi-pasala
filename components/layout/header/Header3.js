@@ -58,29 +58,29 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                         </div>
                                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                             <ul className="navigation">
-                                                <li><Link href="#">Home</Link> </li>
-                                                <li className=" menu-item-has-children"><Link href="#">Domain</Link>
-                                                    <ul className="sub-menu">
-                                                        <li ><Link href="/#">Literature Survey</Link></li>
-                                                        <li><Link href="/#">Research Gap</Link></li>
-                                                        <li><Link href="/#">Research Problem</Link></li>
-                                                        <li><Link href="/#">Research Objectives</Link></li>
-                                                        <li><Link href="/#">Methodology</Link></li>
-                                                        <li><Link href="/#">Technologies and tools</Link></li>
-                                                        {/* <li className="active"><Link href="/index-3">Home Three</Link></li> */}
-                                                    </ul>
-                                                </li>
-                                                <li><Link href="/#">Milestones</Link></li>
-                                                <li><Link href="/#">Documents</Link></li>
-                                                <li><Link href="/#">Presentations</Link></li>
-                                                <li><Link href="/#">Gallery</Link></li>
-                                                <li><Link href="/#">Join Us</Link></li>
-                                                <li><Link href="/#">About Us</Link></li>
-                                                <li><Link href="/#">Contact Us</Link></li>
+  <li><Link href="/#home">Home</Link></li>
 
-                                                
-                                                
-                                            </ul>
+  <li className="menu-item-has-children">
+    <Link href="/#domain">Domain</Link>
+    <ul className="sub-menu">
+      <li><Link href="/#domain">Literature Survey</Link></li>
+      <li><Link href="/#domain">Research Gap</Link></li>
+      <li><Link href="/#domain">Research Problem</Link></li>
+      <li><Link href="/#domain">Research Objectives</Link></li>
+      <li><Link href="/#domain">Methodology</Link></li>
+      <li><Link href="/#domain">Technologies and Tools</Link></li>
+    </ul>
+  </li>
+
+  <li><Link href="/#milestones">Milestones</Link></li>
+  <li><Link href="/#documents">Documents</Link></li>
+  <li><Link href="/#presentations">Presentations</Link></li>
+  <li><Link href="/#gallery">Gallery</Link></li>
+  <li><Link href="/#join">Join Us</Link></li>
+  <li><Link href="/#about">About Us</Link></li>
+  <li><Link href="/#contact">Contact Us</Link></li>
+</ul>
+
                                         </div>
                                         {/* <div className="tgmenu__search-bar">
                                             <form action="#">
