@@ -26,14 +26,16 @@ jobs:
 
       - run: npm ci
       - run: npm run build
-      
-      # Create .nojekyll file to bypass Jekyll processing
-      - run: |
-          touch out/.nojekyll
+
+      # Create .nojekyll file
+      - name: Create .nojekyll file
+        run: |
+          mkdir -p dist
+          touch dist/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: dist
 
   deploy:
     needs: build

@@ -14,6 +14,7 @@ const repo = 'punchi-pasala';
 
 const nextConfig = {
   output: 'export',
+  distDir: 'dist',
   images: {
     unoptimized: true,
   },
