@@ -1,4 +1,6 @@
 import Link from "next/link"
+import { assetPath } from "@/utils/assetPath";
+
 
 export default function Documents() {
     return (
@@ -10,7 +12,7 @@ export default function Documents() {
                             <div className="categories__title-wrap text-center text-lg-start m-0">
                                 <div className="section__title mb-0">
                                     <span className="sub-title"> Documents </span>
-                                    <h2 className="title tg-svg">Project <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="/punchi-pasala/assets/img/icons/title_shape.svg" />Documents</span>
+                                    <h2 className="title tg-svg">Project <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Documents</span>
                                     </h2>
                                 </div>
                             </div>
@@ -41,7 +43,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -81,7 +83,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -122,7 +124,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -163,7 +165,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -204,7 +206,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -244,7 +246,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -284,7 +286,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}
@@ -324,7 +326,7 @@ export default function Documents() {
   >
     {/* Document Icon */}
     <div style={{ marginBottom: "10px" }}>
-      <img src="/punchi-pasala/assets/img/others/pdf-icon.png" alt="PDF" style={{ width: "100px", height: "100px" }} />
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
     </div>
 
     {/* Document Title */}

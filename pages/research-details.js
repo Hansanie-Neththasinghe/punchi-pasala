@@ -3,6 +3,8 @@ import ShopRelatedSlider1 from "@/components/slider/ShopRelatedSlider1"
 import Link from "next/link"
 import { useState } from "react"
 import Objectives from "@/components/sections/Objectives"
+import { assetPath } from "@/utils/assetPath";
+
 
 
 export default function ResearchDetails() {
@@ -220,7 +222,7 @@ different scales such as comparisons [4].</p>
                                         <div className={activeIndex2 === 5 ? "tab-pane fade show active" : "tab-pane fade"}>
                                             
                                             <h2>Component Overview Diagram</h2>
-                                            <img src="/punchi-pasala/assets/img/others/methodology.png"></img>
+                                            <img src={assetPath("/assets/img/others/methodology.png")}></img>
                                         </div>
                   </div>
                 </div>

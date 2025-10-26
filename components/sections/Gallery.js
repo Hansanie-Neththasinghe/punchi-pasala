@@ -175,25 +175,28 @@
 
 
 "use client";
+import { assetPath } from "@/utils/assetPath";
+
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Gallery({
   images = [
-    "/punchi-pasala/assets/img/others/cat01.jpg",
-    "/assets/img/others/cat02.jpg",
-    "/assets/img/others/cat03.jpg",
-    "/assets/img/others/cat04.jpg",
-    "/assets/img/others/cat01.jpg",
-    "/assets/img/others/cat02.jpg",
-    "/assets/img/others/cat03.jpg",
-    "/assets/img/others/cat04.jpg",
-    "/assets/img/others/cat01.jpg",
-    "/assets/img/others/cat02.jpg",
-    "/assets/img/others/cat03.jpg",
-    "/assets/img/others/cat04.jpg",
-  ],
+  assetPath('/assets/img/others/cat01.jpg'),
+  assetPath('/assets/img/others/cat02.jpg'),
+  assetPath('/assets/img/others/cat03.jpg'),
+  assetPath('/assets/img/others/cat04.jpg'),
+  assetPath('/assets/img/others/cat01.jpg'),
+  assetPath('/assets/img/others/cat02.jpg'),
+  assetPath('/assets/img/others/cat03.jpg'),
+  assetPath('/assets/img/others/cat04.jpg'),
+  assetPath('/assets/img/others/cat01.jpg'),
+  assetPath('/assets/img/others/cat02.jpg'),
+  assetPath('/assets/img/others/cat03.jpg'),
+  assetPath('/assets/img/others/cat04.jpg'),
+],
+
 }) {
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState(0);
@@ -222,7 +225,7 @@ export default function Gallery({
   <div className="categories__title-wrap text-center text-lg-start m-0 ">
                                 <div className="section__title mb-10">
                                     <span className="sub-title"> Gallery </span>
-                                    <h2 className="title tg-svg">Our <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="assets/img/icons/title_shape.svg" />Gallery</span>
+                                    <h2 className="title tg-svg">Our <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Gallery</span>
                                     </h2>
                                 </div>
                             </div>

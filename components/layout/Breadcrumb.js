@@ -1,9 +1,10 @@
 import Link from "next/link"
+import { assetPath } from "@/utils/assetPath";
 
 export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
-            <section className="breadcrumb-area breadcrumb-bg" data-background="/punchi-pasala/assets/img/bg/breadcrumb_bg.jpg">
+            <section className="breadcrumb-area breadcrumb-bg" data-background={`${assetPath}/assets/img/bg/breadcrumb_bg.jpg`}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

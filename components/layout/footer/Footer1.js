@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { assetPath } from "@/utils/assetPath";
 
 export default function Footer1() {
     return (
@@ -11,7 +12,8 @@ export default function Footer1() {
                                 <div className="footer-widget">
                                     <div className="footer__about">
                                         <div className="footer__logo logo">
-                                            <Link href="/"><img src="/punchi-pasala/assets/img/logo/logo-punchi-pasala.png" alt="img" /></Link>
+                                            {/* <Link href="/"><img src="/assets/img/logo/logo-punchi-pasala.png" alt="img" /></Link> */}
+                                            <Link href="/"><img src={assetPath('/assets/img/logo/logo-punchi-pasala.png')} alt="img" /></Link>
                                         </div>
                                         <p>when an unknown printer took galley of type and scrambled it to make pspecimen bookt
                                             has.</p>
