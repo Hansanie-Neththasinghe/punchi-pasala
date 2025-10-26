@@ -2,7 +2,7 @@ name: Build and Deploy (GitHub Pages)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, DEV/Hansanie ]
 
 permissions:
   contents: read
@@ -25,12 +25,11 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - run: npm run static      # builds and exports to ./dist
-
-      # Create dist directory if it doesn't exist and add .nojekyll
+      - run: npm run build
+      
+      # Create .nojekyll file to bypass Jekyll processing
       - run: |
-          mkdir -p dist
-          touch dist/.nojekyll
+          touch out/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
