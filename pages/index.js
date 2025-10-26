@@ -52,7 +52,6 @@ import GroupMembers from "@/components/sections/GroupMembers";
 import Supervisors from "@/components/sections/Supervisors";
 
 export default function Home1() {
-  // height of your sticky header (adjust as needed)
   const HEADER_H = 100;
 
   return (
