@@ -13,9 +13,10 @@ const isProd = process.env.NODE_ENV === 'production';
 const repo = 'punchi-pasala';
 
 const nextConfig = {
-  reactStrictMode: true,
   output: 'export',
-  images: { unoptimized: true },
+  images: {
+    unoptimized: true,
+  },
   basePath: isProd ? `/${repo}` : '',
   assetPrefix: isProd ? `/${repo}` : '',
 };
