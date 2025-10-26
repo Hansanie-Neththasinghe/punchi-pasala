@@ -26,14 +26,25 @@ jobs:
 
       - run: npm ci
       - run: npm run build
-      
-      # Create .nojekyll file to bypass Jekyll processing
-      - run: |
+
+      # Prepare and upload build output
+      - name: Prepare build output
+        run: |
+          mkdir -p out
+          cp -r .next/static out/_next/static
+          cp -r public/* out/
           touch out/.nojekyll
+
+      # Copy index page
+      - name: Copy index page
+        run: |
+          if [ -f ".next/server/pages/index.html" ]; then
+            cp .next/server/pages/index.html out/
+          fi
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: out
 
   deploy:
     needs: build
