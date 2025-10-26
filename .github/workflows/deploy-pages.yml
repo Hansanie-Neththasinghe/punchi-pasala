@@ -29,13 +29,11 @@ jobs:
 
       # Create .nojekyll file
       - name: Create .nojekyll file
-        run: |
-          mkdir -p dist
-          touch dist/.nojekyll
+        run: touch out/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: out
 
   deploy:
     needs: build

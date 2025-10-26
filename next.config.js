@@ -14,10 +14,13 @@ const repo = 'punchi-pasala';
 
 const nextConfig = {
   output: 'export',
-  distDir: 'dist',
+  // distDir: 'dist',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
+  basePath: isProd ? `/${repo}` : '',
+  assetPrefix: isProd ? `/${repo}/` : '',
   basePath: isProd ? `/${repo}` : '',
   assetPrefix: isProd ? `/${repo}` : '',
 };
