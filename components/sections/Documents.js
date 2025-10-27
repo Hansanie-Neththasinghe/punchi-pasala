@@ -57,7 +57,7 @@ export default function Documents() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1qOQX3b05nIyvrebXdHQrbZsXh5yQ5T-u?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -87,7 +87,7 @@ export default function Documents() {
     </div>
 
     {/* Document Title */}
-    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Project Charter</h4>
+    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Project Charter-link</h4>
 
     {/* Submitted Date */}
     <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
@@ -136,9 +136,9 @@ export default function Documents() {
     {/* Footer Row */}
     <div
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
-      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
+      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Individual</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1mYKIsOj6Vt7kNE8OCD-N8jn0YHvKxAP4?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -179,7 +179,7 @@ export default function Documents() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1lwRBlEMF1GfdhvQrY_fz0fBV4EB2Z3OF?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -220,7 +220,7 @@ export default function Documents() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1TWMh6Tsaq7kPWW_Amc0Yra_Wb2l3-ULV?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -260,7 +260,7 @@ export default function Documents() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1UOcJYU44PDVJwI4iaL4n7VMZWCv_RtGg?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -298,9 +298,9 @@ export default function Documents() {
     {/* Footer Row */}
     <div
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
-      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
+      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Individual</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1sFH2M8bB1ygQQOXgevgZyc1JMiiAxspW?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -340,7 +340,7 @@ export default function Documents() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1LMK22G-CKBNJ-rrF5V8SfsS3rJADA2Y7?usp=sharing"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
