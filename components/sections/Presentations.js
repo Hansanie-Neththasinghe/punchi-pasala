@@ -56,7 +56,7 @@ export default function Presentations() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/17cQAH3ED-xuciR6mQciSG563VVdhNYfh?usp=drive_link"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -96,7 +96,7 @@ export default function Presentations() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/file/d/1j1RC5Qds8sDpi55BIuHZts2OANemnNi4/view?usp=drive_link"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -137,7 +137,7 @@ export default function Presentations() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/file/d/1_yo1iDno0h7XgAdQ2eIYsbnKFpwF9MmA/view?usp=drive_link"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -178,7 +178,7 @@ export default function Presentations() {
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/your-doc-link"
+        href="https://drive.google.com/drive/folders/1GsfGaEqQvM-GKu62RdMCtcnfEqApFeoj?usp=drive_link"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
