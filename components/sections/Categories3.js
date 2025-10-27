@@ -32,9 +32,9 @@ export default function Categories3() {
             <div className="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
               <div className="col">
                 <div className="categories__item-three">
-                  <Link href="/#">
+                  <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/">
                     <div className="thumb">
-                      <img src={assetPath("/assets/img/others/cat01.jpg")} alt="img" />
+                      <img src={assetPath("/assets/img/others/c1.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -49,9 +49,9 @@ export default function Categories3() {
               </div>
               <div className="col">
                 <div className="categories__item-three">
-                  <Link href="/#">
+                  <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/">
                     <div className="thumb">
-                      <img src={assetPath("/assets/img/others/cat02.jpg")} alt="img" />
+                      <img src={assetPath("/assets/img/others/c2.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -66,9 +66,9 @@ export default function Categories3() {
               </div>
               <div className="col">
                 <div className="categories__item-three">
-                  <Link href="/#">
+                  <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/">
                     <div className="thumb">
-                      <img src={assetPath("/assets/img/others/cat03.jpg")} alt="img" />
+                      <img src={assetPath("/assets/img/others/c5.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -83,9 +83,9 @@ export default function Categories3() {
               </div>
               <div className="col">
                 <div className="categories__item-three">
-                  <Link href="/#">
+                  <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/">
                     <div className="thumb">
-                      <img src={assetPath("/assets/img/others/cat04.jpg")} alt="img" />
+                      <img src={assetPath("/assets/img/others/c4.jpg")} alt="img" />
                     </div>
                     <div className="info">
                       <div className="list">
@@ -100,14 +100,7 @@ export default function Categories3() {
               </div>
             </div>
           </div>
-          {/* <div className="categories__shapes-two">
-                    <div className="categories__shapes-item-two rotateme">
-                        <img src="/assets/img/objects/categories_shape05.png" alt="shape" />
-                    </div>
-                    <div className="categories__shapes-item-two" data-aos="fade-up">
-                        <img src="/assets/img/objects/categories_shape02.png" alt="shape" />
-                    </div>
-                </div> */}
+          
 
           
         </section>

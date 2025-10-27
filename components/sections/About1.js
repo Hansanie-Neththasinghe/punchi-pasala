@@ -51,7 +51,7 @@ export default function About1() {
                                     </li>
                                 </ul>
                                 <div className="tg-button-wrap">
-                                    <Link href="/about-us" className="btn tg-svg"><span className="text">Discover More</span> <span className="svg-icon" id="about-btn" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
+                                    <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/" className="btn tg-svg"><span className="text">Discover More</span> <span className="svg-icon" id="about-btn" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
                                 </div>
                             </div>
                         </div>
