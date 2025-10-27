@@ -17,14 +17,14 @@ export default function Slider1() {
         <>
             <section className="slider-area">
                 <Slider {...settings} className="slider__active">
-                    <div className="slider__item d-flex" data-background={assetPath("/assets/img/banner/slider_bg01.png")}>
+                    <div className="slider__item d-flex" data-background={assetPath("/assets/img/banner/slider_bg04.png")}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
                                         <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
-                                         For Your Child</h2>
+                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5"><span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Punchi Pasala</span> <br />
+                                        Find The Best Learning Partner For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
                                             <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
@@ -41,14 +41,14 @@ export default function Slider1() {
                         <img src={assetPath("/assets/img/objects/categories_shape02.png")} alt="shape" width={108} className="top-shape" data-delay-in="1.2" data-duration-in="1.5" />
                         <img src={assetPath("/assets/img/banner/slider_shape.png")} alt="shape" className="bottom-shape" data-delay-in="1.2" data-duration-in="1.5" />
                     </div>
-                    <div className="slider__item d-flex" data-background={assetPath("/assets/img/banner/slider_bg02.png")}>
+                    <div className="slider__item d-flex" data-background={assetPath("/assets/img/banner/slider_bg05.png")}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
                                         <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg02" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
-                                            For Your Child</h2>
+                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5"><span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Punchi Pasala</span> <br />
+                                        Find The Best Learning Partner For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
                                             <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
@@ -71,8 +71,8 @@ export default function Slider1() {
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
                                         <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg03" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
-                                            For Your Child</h2>
+                                       <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5"><span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Punchi Pasala</span> <br />
+                                        Find The Best Learning Partner For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
                                             <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
