@@ -18,8 +18,8 @@ export default function Newsletter1() {
                         </div>
                         <div className="col-xl-6 col-lg-7">
                             <div className="newsletter__form">
-                                <form action="#">
-                                    <input type="email" placeholder="Enter your email" required />
+                                <form action="https://www.youtube.com/@PunchiPasala-R25-009">
+                                    <input type="email" placeholder="punchipasalar25009@gmail.com" disabled />
                                     <button type="submit">Subscribe Now</button>
                                 </form>
                             </div>
