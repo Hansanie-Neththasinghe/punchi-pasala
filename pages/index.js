@@ -67,13 +67,15 @@ export default function Home1() {
           <Technologies />
         </section>
 
-        <section id="milestones" style={{ scrollMarginTop: HEADER_H }}>
-          <Timeline />
-        </section>
+        
 
         <section id="about" style={{ scrollMarginTop: HEADER_H }}>
           <About1 />
           <Categories3 />
+        </section>
+
+        <section id="milestones" style={{ scrollMarginTop: HEADER_H }}>
+          <Timeline />
         </section>
 
         <section id="documents" style={{ scrollMarginTop: HEADER_H }}>

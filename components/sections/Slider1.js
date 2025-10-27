@@ -22,17 +22,17 @@ export default function Slider1() {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
-                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Any Where To Do Discover Courses</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best Suitable <span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Courses</span>
-                                            From Here</h2>
+                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
+                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg01" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
+                                         For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
-                                            <li><i className="fas fa-check-circle" />You can access 7,900+ different courses
+                                            <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
-                                            <li><i className="fas fa-check-circle" />Lifetime Access For All</li>
+                                            <li><i className="fas fa-check-circle" />Engaging multimedia content to make learning fun</li>
                                         </ul>
                                         <div className="tg-button-wrap" data-delay-in=".8" data-duration-in="1.5">
-                                            <Link href="/courses" className="btn tg-svg"><span className="text">Explore
-                                                Courses</span> <span className="svg-icon" id="slider-btn01" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
+                                            <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/" className="btn tg-svg"><span className="text">Explore
+                                                Activities</span> <span className="svg-icon" id="slider-btn01" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -46,17 +46,17 @@ export default function Slider1() {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
-                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Any Where To Do Discover Courses</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best Suitable <span className="position-relative"><span className="svg-icon" id="slider-svg02" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Courses</span>
-                                            From Here</h2>
+                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
+                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg02" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
+                                            For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
-                                            <li><i className="fas fa-check-circle" />You can access 7,900+ different courses
+                                            <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
-                                            <li><i className="fas fa-check-circle" />Lifetime Access For All</li>
+                                            <li><i className="fas fa-check-circle" />Engaging multimedia content to make learning fun</li>
                                         </ul>
                                         <div className="tg-button-wrap" data-delay-in=".8" data-duration-in="1.5">
-                                            <Link href="/courses" className="btn tg-svg"><span className="text">Explore
-                                                Courses</span> <span className="svg-icon" id="slider-btn02" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
+                                            <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/" className="btn tg-svg"><span className="text">Explore
+                                                Activities</span> <span className="svg-icon" id="slider-btn02" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -70,17 +70,17 @@ export default function Slider1() {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-8">
                                     <div className="slider__content">
-                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Any Where To Do Discover Courses</span>
-                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best Suitable <span className="position-relative"><span className="svg-icon" id="slider-svg03" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Courses</span>
-                                            From Here</h2>
+                                        <span className="sub-title" data-delay-in=".2" data-duration-in="1.5">Any Time, Anywhere, Learning Made Simple</span>
+                                        <h2 className="title tg-svg" data-delay-in=".4" data-duration-in="1.5">Find The Best <span className="position-relative"><span className="svg-icon" id="slider-svg03" data-svg-icon={assetPath("assets/img/icons/title_shape.svg")} />Learning Partner</span>
+                                            For Your Child</h2>
                                         <ul className="list-wrap" data-delay-in=".6" data-duration-in="1.5">
-                                            <li><i className="fas fa-check-circle" />You can access 7,900+ different courses
+                                            <li><i className="fas fa-check-circle" />Learn at your own pace with flexible schedules
                                             </li>
-                                            <li><i className="fas fa-check-circle" />Lifetime Access For All</li>
+                                            <li><i className="fas fa-check-circle" />Engaging multimedia content to make learning fun</li>
                                         </ul>
                                         <div className="tg-button-wrap" data-delay-in=".8" data-duration-in="1.5">
-                                            <Link href="/courses" className="btn tg-svg"><span className="text">Explore
-                                                Courses</span> <span className="svg-icon" id="slider-btn03" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
+                                            <Link href="http://punchi-pasala-frontend.s3-website.eu-north-1.amazonaws.com/" className="btn tg-svg"><span className="text">Explore
+                                                Activities</span> <span className="svg-icon" id="slider-btn03" data-svg-icon={assetPath("assets/img/icons/btn-arrow.svg")} /></Link>
                                         </div>
                                     </div>
                                 </div>

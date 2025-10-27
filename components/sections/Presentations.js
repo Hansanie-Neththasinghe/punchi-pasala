@@ -49,7 +49,7 @@ export default function Presentations() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Project Proposal </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/01/27 </p>
 
     {/* Footer Row */}
     <div
@@ -89,7 +89,7 @@ export default function Presentations() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Progress Presentation I</h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/04/07 </p>
 
     {/* Footer Row */}
     <div
@@ -130,7 +130,7 @@ export default function Presentations() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Progress Presentation II</h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/08/15 </p>
 
     {/* Footer Row */}
     <div
@@ -171,7 +171,7 @@ export default function Presentations() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Final Presentation</h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/10/28 </p>
 
     {/* Footer Row */}
     <div

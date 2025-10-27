@@ -19,9 +19,7 @@ export default function Documents() {
                         </div>
                         <div className="col-xl-5 col-lg-4 col-md-6">
                             <div className="tg-button-wrap mt-4 mt-lg-0 justify-content-center justify-content-lg-end">
-                                {/* <Link href="/courses" className="btn btn-border tg-svg"><span className="text">All
-                                    Categories</span> <span className="svg-icon" id="svg-6" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link> */}
-                            </div>
+                               </div>
                         </div>
                     </div>
                     <div className="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
@@ -50,7 +48,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Topic Assessment Form </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/20 </p>
 
     {/* Footer Row */}
     <div
@@ -66,48 +64,10 @@ export default function Documents() {
   </div>
 </div>
 
+
+
+
 {/* Document 2 */}
-<div className="col">
-  <div
-    style={{
-      background: "#fff",
-      borderRadius: "8px",
-      padding: "10px",
-      marginBottom: "30px",
-      boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
-      textAlign: "center",
-      transition: "transform 0.3s ease", // smooth animation
-    }}
-    onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
-    onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-  >
-    {/* Document Icon */}
-    <div style={{ marginBottom: "10px" }}>
-      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
-    </div>
-
-    {/* Document Title */}
-    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Project Charter-link</h4>
-
-    {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
-
-    {/* Footer Row */}
-    <div
-      style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
-      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
-      <a
-        href="https://drive.google.com/your-doc-link"
-        target="_blank" rel="noopener noreferrer" 
-        style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
-        Download
-      </a>
-    </div>
-  </div>
-</div>
-
-
-{/* Document 3 */}
 <div className="col">
   <div
     style={{
@@ -131,7 +91,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Project Proposal</h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/01/17 </p>
 
     {/* Footer Row */}
     <div
@@ -148,7 +108,7 @@ export default function Documents() {
 </div>
 
 
-{/* Doc 4 */}
+{/* Doc 3 */}
 <div className="col">
   <div
     style={{
@@ -172,7 +132,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist I </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/04/09 </p>
 
     {/* Footer Row */}
     <div
@@ -188,6 +148,45 @@ export default function Documents() {
   </div>
 </div>
 
+{/* Document 4 */}
+<div className="col">
+  <div
+    style={{
+      background: "#fff",
+      borderRadius: "8px",
+      padding: "10px",
+      marginBottom: "30px",
+      boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+      textAlign: "center",
+      transition: "transform 0.3s ease", // smooth animation
+    }}
+    onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
+    onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+  >
+    {/* Document Icon */}
+    <div style={{ marginBottom: "10px" }}>
+      <img src={assetPath("/assets/img/others/pdf-icon.png")} alt="PDF" style={{ width: "100px", height: "100px" }} />
+    </div>
+
+    {/* Document Title */}
+    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist II</h4>
+
+    {/* Submitted Date */}
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/09/15 </p>
+
+    {/* Footer Row */}
+    <div
+      style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
+      <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
+      <a
+        href="https://drive.google.com/drive/folders/1vXe8K9i8TXDbuTxdNH2M-V8AAxcX8wPS?usp=drive_link"
+        target="_blank" rel="noopener noreferrer" 
+        style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
+        Download
+      </a>
+    </div>
+  </div>
+</div>
 
 {/* Doc 5 */}
 <div className="col">
@@ -210,17 +209,17 @@ export default function Documents() {
     </div>
 
     {/* Document Title */}
-    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist II & III</h4>
+    <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Checklist III</h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/09/55 </p>
 
     {/* Footer Row */}
     <div
       style={{ display: "flex", justifyContent: "space-between", fontSize: "14px", }} >
       <p style={{ margin: 0, fontSize: "18px", color: "#555" }}>Group</p>
       <a
-        href="https://drive.google.com/drive/folders/1TWMh6Tsaq7kPWW_Amc0Yra_Wb2l3-ULV?usp=sharing"
+        href="https://drive.google.com/drive/folders/1a-3KNE70sF-BdGwfzrC-2rcVuiaI7aMx?usp=drive_link"
         target="_blank" rel="noopener noreferrer" 
         style={{ color: "#1a73e8", fontSize: "18px", fontWeight: "500", textDecoration: "none", }} >
         Download
@@ -253,7 +252,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Research Paper </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/06/23 </p>
 
     {/* Footer Row */}
     <div
@@ -293,7 +292,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Final Reports </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/08/29 </p>
 
     {/* Footer Row */}
     <div
@@ -333,7 +332,7 @@ export default function Documents() {
     <h4 style={{ fontSize: "20px", fontWeight: "700", marginBottom: "8px" }}> Poster </h4>
 
     {/* Submitted Date */}
-    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2024/12/25 </p>
+    <p style={{ fontSize: "18px", color: "#555", margin: "0 0 12px" }}> Submitted on 2025/08/29 </p>
 
     {/* Footer Row */}
     <div
